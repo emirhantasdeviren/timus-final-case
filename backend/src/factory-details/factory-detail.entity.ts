@@ -1,5 +1,5 @@
-import { Factory } from "src/factories/factory.entity";
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Factory } from 'src/factories/factory.entity';
+import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class FactoryDetail {
@@ -9,18 +9,20 @@ export class FactoryDetail {
     @Column()
     departmant: string;
 
-    @Column({ type: "timestamptz" })
+    @Column({ type: 'timestamptz' })
     start: Date;
 
-    @Column({ type: "timestamptz" })
+    @Column({ type: 'timestamptz' })
     end: Date;
 
-    @Column({ type: "real" })
+    @Column({ type: 'real' })
     cost: number;
 
     @Column()
     discount: boolean;
 
-    @ManyToOne(() => Factory, factory => factory.details, { onDelete: "CASCADE" })
+    @ManyToOne(() => Factory, (factory) => factory.details, {
+        onDelete: 'CASCADE',
+    })
     factory: Factory;
 }

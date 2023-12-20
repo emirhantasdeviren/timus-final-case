@@ -11,4 +11,3 @@ import { FactoriesModule } from 'src/factories/factories.module';
     controllers: [FactoryDetailsController],
 })
 export class FactoryDetailsModule {}
-

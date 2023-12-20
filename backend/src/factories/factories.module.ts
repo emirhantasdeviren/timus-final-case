@@ -11,4 +11,3 @@ import { FactoriesController } from './factories.controller';
     exports: [FactoriesService],
 })
 export class FactoriesModule {}
-
