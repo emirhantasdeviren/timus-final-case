@@ -34,16 +34,14 @@ Contains detailed information about a specific factory.
 
 ### Factory Endpoints
 
-- `GET /factories`: Retrieve a list of all factories.
-- `GET /factories/:id`: Retrieve details of a specific factory.
-- `POST /factories`: Create a new factory.
-- `PUT /factories/:id`: Update an existing factory.
-- `DELETE /factories/:id`: Delete a factory.
+- `GET /api/v1/factories`: Retrieve a list of all factories.
+- `GET /api/v1/factories/:id`: Retrieve details of a specific factory.
+- `POST /api/v1/factories`: Create a new factory.
+- `DELETE /api/v1/factories/:id`: Delete a factory.
 
 ### Factory Detail Endpoints
 
-- `GET /factory-details`: Retrieve a list of all factory details.
-- `GET /factory-details/:id`: Retrieve details of a specific factory detail record.
-- `POST /factory-details`: Create a new factory detail record.
-- `PUT /factory-details/:id`: Update an existing factory detail record.
-- `DELETE /factory-details/:id`: Delete a factory detail record.
+- `GET /api/v1/factory-details`: Retrieve a list of all factory details.
+- `GET /api/v1/factory-details/:id`: Retrieve details of a specific factory detail record.
+- `POST /api/v1/factory-details`: Create a new factory detail record.
+- `DELETE /api/v1/factory-details/:id`: Delete a factory detail record.
