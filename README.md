@@ -45,3 +45,13 @@ Contains detailed information about a specific factory.
 - `GET /api/v1/factory-details/:id`: Retrieve details of a specific factory detail record.
 - `POST /api/v1/factory-details`: Create a new factory detail record.
 - `DELETE /api/v1/factory-details/:id`: Delete a factory detail record.
+
+## Instructions
+
+To run the app, simply run
+
+```docker compose up -d```
+
+After all services are started, you can access the API via
+
+```http://localhost:3000```
